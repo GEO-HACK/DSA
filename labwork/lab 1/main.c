@@ -23,7 +23,7 @@ int main()
     }
     for (int i= 0; i<n; i++)
     {
-        printf("%d\n",nums[i]);
+        printf("%d ",nums[i]);
     }
 
     //call the summation function
@@ -48,7 +48,7 @@ int  summation(int nums[], int n)
    {
        sum +=nums[i];
    }
-   printf("The sum of the array is: %d\n",sum);
+   printf("\nThe sum of the array is: %d\n",sum);
    return sum;
 }
 int maximum (int nums[],int n)

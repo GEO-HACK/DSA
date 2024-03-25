@@ -1,6 +1,6 @@
 def duplicate(nums):
     nums.sort()
-    for i in range(len(nums)-1):
+    for i in range(len(nums)-1):#we subtract since the i+1 will be the last index int the array
         if nums[i] == nums[i+1]:
         
             return print(True)
